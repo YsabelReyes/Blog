@@ -1,0 +1,106 @@
+/*html{
+	font-family: 'Antic Didone', serif;
+    font-family: 'Hubballi', cursive;
+    font-family: 'League Spartan', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+}*/
+
+html{
+	font-family: 'Cormorant Garamond', serif;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Homemade Apple', cursive;
+
+}
+
+body{
+	margin: 0;
+	background-color: #ddd;
+}
+
+header{ 
+	display: flex;
+	justify-content: center;
+    background-color: #364552; 
+}
+
+
+header img{
+	width: 300px;
+	clip-path: circle(100px);
+
+}
+
+h1{
+	font-size: 6rem;
+	font-family: 'Dancing Script', cursive;
+	text-align: center;
+	background-color: #364552;
+	color: white; 
+    padding: 5px;
+    margin-top: -50px;
+}
+
+hr{
+	width: 70%;
+}
+.description{
+	padding: 10px 20px;
+	font-size: 30px;
+}
+.container{
+	width: 400px;
+	margin: 0 auto;
+
+}
+
+section article{
+	transition: box-shadow 0.2s ease ;
+	background-color: #fff;
+	margin: 1rem 0;
+	border-radius: 0.5rem;
+	padding: 0.25rem 0rem;
+	cursor: pointer;
+
+}
+article h2{
+	font-family: 'Dancing Script', cursive;
+	font-size: 40px;
+}
+article p{
+	font-family: 'Cormorant Garamond', serif;
+}
+section article:hover{
+	box-shadow: 0 0.1rem 0.5rem rgba(0,0,0,0.3);
+}
+section article h2, section article p{
+	margin: 1rem;
+}
+
+footer{
+	background-color: #364552;
+	padding: 60px;
+	color: white;
+	font-family: 'Cormorant Garamond', serif;
+	font-size: 20px;
+
+}
+
+footer section{
+	float: right;
+}
+
+footer p{
+	margin: 0px;
+}
+
+footer a{
+	transition: color 0.3s ease;
+	color: white;
+	text-decoration: none;
+	padding: px;
+
+}
+
+footer a:hover{
+	color:cornflowerblue;
+}
